@@ -1,0 +1,15 @@
+file_name,solver,vertices,edges,max_degree,success,bandwidth,runtime_sec,clauses,variables,timeout,timeout_at_w,last_successful_w,last_successful_clauses,last_successful_vars,error_msg
+A_jgl009.mtx,ver_2,9,32,8,True,4,0.54,810,243,False,,,,,
+A_jgl009.mtx,ver_2_5,9,32,8,True,4,0.57,810,243,False,,,,,
+B_rgg010.mtx,ver_2,10,45,9,True,NO_SOLUTION,0.59,1100,300,False,,,,,
+B_rgg010.mtx,ver_2_5,10,45,9,True,5,0.58,1100,300,False,,,,,
+C_jgl011.mtx,ver_2,11,49,10,True,5,0.55,1331,363,False,,,,,
+C_jgl011.mtx,ver_2_5,11,49,10,True,5,0.55,1331,363,False,,,,,
+D_can___24.mtx,ver_2,24,68,8,True,5,0.83,5544,1728,False,,,,,
+D_can___24.mtx,ver_2_5,24,68,8,True,5,0.87,5544,1728,False,,,,,
+E_pores_1.mtx,ver_2,30,103,9,True,7,8.24,9240,2700,False,,,,,
+E_pores_1.mtx,ver_2_5,30,103,9,True,7,8.46,9240,2700,False,,,,,
+F_ibm32.mtx,ver_2,32,90,11,False,,12.03,,,True,,,,,Process killed due to timeout (12.0s)
+F_ibm32.mtx,ver_2_5,32,90,11,False,,12.02,,,True,,,,,Process killed due to timeout (12.0s)
+G_bcspwr01.mtx,ver_2,39,46,5,True,4,2.02,12246,4563,False,,,,,
+G_bcspwr01.mtx,ver_2_5,39,46,5,True,4,1.99,12246,4563,False,,,,,
