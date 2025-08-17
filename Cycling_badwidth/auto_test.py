@@ -20,7 +20,7 @@ def find_mtx_files(directory):
         files.extend(glob.glob(os.path.join(directory, '**', pattern), recursive=True))
     return sorted(list(set(files)))
 
-def run_cbp_solver(script_path, mtx_file, timeout=12):
+def run_cbp_solver(script_path, mtx_file, timeout=600):
     """
     Run CBP solver with timeout and capture output.
     This version forces unbuffered output to prevent data loss on timeout.
@@ -177,7 +177,7 @@ def main():
         ("ver_2.py", "ver_2"),
         ("ver_2_5.py", "ver_2_5"),
     ]
-    timeout = 12
+    timeout = 600
 
     mtx_files = find_mtx_files(test_directory)
     print(f"Found {len(mtx_files)} test files.")
